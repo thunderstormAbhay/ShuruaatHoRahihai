@@ -1,0 +1,29 @@
+Hi,
+
+Ambrish here,
+
+We are learning OOPS in Python from Jenny.
+
+1)Every object is an instance of a class.
+2)A class is a blueprint to create object..
+e.g., class=instructor , object=Jenny,Raghav
+
+OBJECT has:
+     i)variables/attributes
+     ii)methods/functions
+
+e.g. Idly maker can facilitate making of Idly's.
+e.g. Sktech of a house is class and house is an object of that class.
+
+#CLASS can be  user defined as well as inbuilt also.
+
+-->Classname should be in PascalCase...
+
+SYNTAX:e.g.,
+      class Instructor:
+       #statements
+
+  instructor_1=Instructor() // object
+
+ 
+
