@@ -1,0 +1,4 @@
+ECHO is on.
+Who wrote above text?
+
+echo. > file_name.txt , aise likhna tha na bhai..
