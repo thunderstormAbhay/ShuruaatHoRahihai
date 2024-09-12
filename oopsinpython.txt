@@ -26,4 +26,58 @@ SYNTAX:e.g.,
   instructor_1=Instructor() // object
 
  
+-->Every time you create an object,init function will be called:
+for more knowledge,see the example below:
 
+class Instructor:
+    def __init__(self):
+         print("Creating a new object")
+
+instructor_1=Instructor()
+instructor_1.name="Payal"
+instructor_1.address="Delhi"
+print(instructor_1.name)
+
+//output=Creating a new object
+         Payal
+
+
+example2:
+how to initialise attribute of Instructor();
+ 
+class Instructor:
+    def __init__(self,name,thisaddress):
+        self.ins_name=name
+        self.address=thisaddress
+        self.follower=0//default value
+ 
+instructor_2=Instructor("JAY',"Eden")
+print(instructor_2.name)
+//output=JAY
+
+#self is a keyword which will bind object attributes to the argument  received.
+
+______________________________________________________________
+
+#How to add methods to your class?
+
+class Instructor:
+    followers=0  #CLASS OBJECT VARIABLE
+    def __init__(self,name,thisaddress):
+        self.ins_name=name
+        self.address=thisaddres
+    def display(self):
+          print("Hi")
+          
+#function become method when it is attached to a particular object
+
+-->how to call display method?
+..print(instructor_2.display())
+output=JAY
+            Hi
+            None #why this?
+            == because every function return something ,so here print function wanna return 
+              something ,so it is returning none.
+
+instructor_2.display()
+#now none will not be shown...'
